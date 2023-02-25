@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HBOMax</title>
+        <!--Fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
         <style>
             
@@ -23,39 +27,53 @@
             }
 
             nav{
-                display: flex;
-                justify-content: space-between;
+                display: grid;
+                grid-auto-flow: column;
+                grid-auto-columns: 1fr;
                 margin-top: 1%;
             }
 
             #homeSearch{
-                margin-left: 3%;
+                margin-left: 18%;
                 display: flex;
                 cursor: pointer;
             }
 
+            #homeSearch img:hover{
+                color: #b1b1b1;
+            }
+
             #Search{
-                margin-left: 100%;
+                margin-left: 14%;
             }
 
             #assinarEntrar{
-                margin-right: 3%;
+                margin-right: 20%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 font-family: 'Inter';
                 font-weight: 400;
-                font-size: 29px;
+                font-size: 165%;
                 
             }
 
             #assinarEntrar a{
                 color: white;
+
+            }
+
+            #assinarEntrar a:hover{
+                color: #b1b1b1;
             }
 
             #assinar{
-                margin-right: 10%;
+                margin-left: 30%;
+            }
 
+            #logo{
+                display: flex;
+                justify-content: center;
             }
 
         </style>
@@ -69,7 +87,9 @@
                 <img id="Search" src="img/search.svg">
             </div>
 
-            <img src="img/hbomaxLogo.svg">
+            <div id="logo" >
+                <img src="img/hbomaxLogo.svg">
+            </div>    
 
             <div id="assinarEntrar">
                 <a href="" id="assinar">Assinar</a>
@@ -77,6 +97,13 @@
             </div>
         </nav>
         
+        <header>
+
+            <h1>Entrar</h1>
+            <h2>Você tem uma conta HBO Max?</h2>
+
+        </header>
+
     </body>
 
 </html>
