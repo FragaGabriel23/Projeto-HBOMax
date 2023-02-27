@@ -254,3 +254,10 @@ form button{
 
 
 }
+
+@media (min-width: 1441px){
+
+    #entrProv button {
+        margin-bottom: 15%;
+    }
+}
