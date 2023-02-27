@@ -224,3 +224,33 @@ form button{
     }
     
 }
+
+@media (min-width: 501px) and (max-width: 999px){
+
+    #assinarEntrar {
+        font-size: 100%;
+    }
+
+    #assinar {
+        margin-right: 10%;
+    }
+
+    #form {
+        width: 45%;
+    }
+
+    form button {
+        width: 25%;
+    }
+
+    #entrProv h2 {
+        font-size: 115%;
+    }
+
+    #entrProv button {
+        width: 45%;
+        font-size: 120%;
+    }
+
+
+}
